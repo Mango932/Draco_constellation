@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Draco Constellation</title>
+        <link href="etoile.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- This section is the header -->
+        <section class="header">
+            <div class="header-title">
+                <img src="images/astronomy.png" width="50px">
+                <span>Constellation Draco</span>
+            </div>
+            <nav>
+                <a href="main.html">Home</a>
+                <a href="">Mythologie</a>
+                <a href="etoile.html">Etoile</a>
+                <a href="">Source</a>
+            </nav>
+        </section>
+
+        <!-- This is the section for the stars -->
+        <div class="star-container">
+            <div class="constellation-container">
+                <div class="constellation">
+                    <div class="instruction">Clicker sur une étoile!</div>
+                    <div class="line con1"></div>
+                    <div class="line con2"></div>
+                    <div class="line con3"></div>
+                    <div class="line con4"></div>
+                    <div class="line con5"></div>
+                    <div class="line con6"></div>
+                    <div class="line con7"></div>
+                    <div class="line con8"></div>
+                    <div class="line con9"></div>
+                    <div class="line con10"></div>
+                    <div class="line con11"></div>
+                    <div class="line con12"></div>
+                    <div class="line con13"></div>
+                    <button class="star btn1" onclick="showstarinfo('star1')"></button>
+                    <button class="star btn2" onclick="showstarinfo('star2')"></button>
+                    <button class="star btn3" onclick="showstarinfo('star3')"></button>
+                    <button class="star btn4" onclick="showstarinfo('star4')"></button>
+                    <button class="star btn5" onclick="showstarinfo('star5')"></button>
+                    <button class="star btn6" onclick="showstarinfo('star6')"></button>
+                    <button class="star btn7" onclick="showstarinfo('star7')"></button>
+                    <button class="star btn8" onclick="showstarinfo('star8')"></button>
+                    <button class="star btn9" onclick="showstarinfo('star9')"></button>
+                    <button class="star btn10" onclick="showstarinfo('star10')"></button>
+                    <button class="star btn11" onclick="showstarinfo('star11')"></button>
+                    <button class="star btn12" onclick="showstarinfo('star12')"></button>
+                    <button class="star btn13" onclick="showstarinfo('star13')"></button>
+                </div>
+            </div>
+            <div class="starinfocontainer">
+                <div class="starname">
+                </div>
+                <div class="starinfo">
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script>
+        function showstarinfo(star) {
+            var starname = document.getElementsByClassName('starname')[0];
+            var starinfo = document.getElementsByClassName('starinfo')[0];
+            document.getElementsByClassName('instruction')[0].style.display = "none";
+            document.getElementsByClassName('constellation-container')[0].style.position = "static";
+            if (star == 'star1') {
+                starname.innerHTML = 'Eltanin';
+                starinfo.innerHTML = "Eltanin ou Gamma Draconis est l’étoile la plus brillante de la constellation Draco, avec une magnitude apparente de 2,23 et une magnitude absolue de -1,93. Elle possède une type spectrale de K5III, avec une longueur d’onde maximale d’environ 737,4 nm, donc Gamma Draconis est plutôt orange.<br><br>Eltanin a une masse de 1,72 fois plus grande que le soleil, un rayon de 48,15 plus grand que le soleil, une luminosité de 471 plus grande que le soleil et une température de 3930K. Elle a une parallaxe de 154,3 mas et se trouve à environ 153,4 années lumières ou 648,1 parsecs de la Terre.";
+            } else if (star == 'star2') {
+                starname.innerHTML = "Rastaban";
+                starinfo.innerHTML = "Rastaban ou Beta Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 2,79 et une magnitude absolue de -2,457. Rastaban a un type spectral de G2II, avec une longueur d’onde maximale d’environ 561,63 nm, donc elle est une étoile plutôt rouge orange.<br><br>Rastaban a une masse 6 fois plus grande que le soleil, un rayon 40 fois plus large que celui du soleil, une luminosité 996 fois plus brillante que le soleil et une température de surface de 5 160 K. Elle a une parallaxe de 8,58 mas et se trouve à environ 380 années lumières ou 117 parsecs de la Terre."
+            } else if (star == 'star3') {
+                starname.innerHTML = "Tau Draconis";
+                starinfo.innerHTML = "au Draconis est une étoile géante de type K avec un spectre de K2 III;. Elle fait partie d’un système binaire d’étoile et est considérée comme riche en métal. L’étoile est presque invisible à l'œil nue avec une magnitude apparente de 4,45 et une magnitude absolue de 1,19. Elle a un parallaxe d’environ 23,8 qui veut dire qu’elle se situe à environ 146 années lumières. Cela signifie que l’étoile se situe dans la voie lactée.<br><br>Tau Draconis a un rayon environ 2,53 fois plus grand que notre soleil et une masse de 1,53 masses solaires. Elle a une température d’environ 6 105 K alors elle aparait entre jaune et blanche. Cette étoile a une luminosité d'environ 9998 L et est estimée d’avoir une age d’environ 6.48 billion d’années."
+            } else if (star == 'star4') {
+                starname.innerHTML = "Grumium";
+                starinfo.innerHTML = "Grumium ou Xi Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 3,75 et une magnitude absolue de 1,06. Grumium a un type spectral de K2III et est donc une étoile rouge-orange.<br><br>Grumium a une masse 1,45 fois plus grande que le soleil, un rayon 12 fois plus large que celui du soleil, une luminosité 49 fois plus brillante que le soleil et une température de 4 445 K. Elle a une parallaxe de 28,98 mas et se trouve à environ 112,5 années lumières ou 34,51 parsecs."
+            } else if (star == 'star5') {
+                starname.innerHTML = "Altais";
+                starinfo.innerHTML = "Altais ou Delta Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 3,07 et une magnitude absolue de 0,62. Elle a un type spectral de G9III. Altais est une étoile jaune.<br><br>Altais a une masse 2,32 fois plus grande que le soleil, un rayon 11 fois plus large que celui du soleil, une luminosité 59 fois plus brillante que le soleil et une température de surface de 4 820 K. Elle a une parallaxe de 33,48 mas et se trouve à environ 97,4 années lumières ou 29,9 parsecs de la Terre."
+            } else if (star == 'star6') {
+                starname.innerHTML = "Tyl";
+                starinfo.innerHTML = "Tyl ou Epsilon Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 3,9974 et une magnitude absolue de 0,71. Elle a un type spectral de G7III, donc elle est une étoile jaune.<br><br>Tyl a une masse 2,7 fois plus grande que le soleil, un rayon 11,15 fois plus large que celui du soleil, une luminosité 69,6 plus brillante que le soleil et une température de 4 993 K. Elle a une parallaxe de 21,2526 mas et se trouve à environ 153 années lumières ou 45,37 parsecs."
+            } else if (star == 'star7') {
+                starname.innerHTML = "Batentaban Borealis";
+                starinfo.innerHTML = "Batentaban Borealis ou Chi Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 3,57 et une magnitude absolue de 4,04. Elle a un type spectral de F7V ou K0V, elle est donc une étoile blanche-jaune.<br><br>Batentaban Borealis a une masse 1,029 fois plus grande que le soleil, un rayon 1,2 fois plus large que celui du soleil, une luminosité 1,86 fois plus brillante que le soleil et une température de 6 150 K. Elle a une parallaxe de 124,11 mas et se trouve à environ 26,3 années lumières ou 8,1 parsecs."
+            } else if (star == 'star8') {
+                starname.innerHTML = "Aldhibah";
+                starinfo.innerHTML = "Aldhibah ou Zeta Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 3,17 et une magnitude absolue de -1,88. Aldhibah a un type spectral de B6III, avec une longueur d’onde maximale d’environ 216,3 nm, donc Aldhibah est plutôt une étoile bleue-blanche.<br><br>Elle a une masse 3,5 fois plus grande que le soleil, un rayon 2,5 fois plus large que celui du soleil, une luminosité 148 fois plus brillante que le soleil et une température de surface de 13 397 K. Elle a une parallaxe de 9,93 mas et se trouve à environ 330 ou 101 parsecs de la Terre."
+            } else if (star == 'star9') {
+                starname.innerHTML = "Athebyne";
+                starinfo.innerHTML = "Athebyne ou Eta Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 2,73 et une magnitude absolue de 0,58. Athebyne a un type spectral de G8III, Athebyne est une étoile jaune.<br><br>Elle a une masse 2,55 fois plus grande que le soleil, un rayon 11 fois plus large que le soleil, une luminosité 60 fois plus brillante que le soleil et une température de surface de 5 005 K. Athebyne a une parallaxe 35,42 mas et se trouve à environ 92,07 années lumières ou 28,23 parsecs."
+            } else if (star == 'star10') {
+                starname.innerHTML = "Theta Draconis";
+                starinfo.innerHTML = "Theta Draconis est une étoile jaune blanche avec un type spectral de F9 V. Elle a une masse de 1,53 masse solaire et un rayon de 2,83 fois le rayon de notre soleil. L’étoile a une magnitude apparente de 4,119 et une magnitude absolue de 2,39.<br><br>Theta est 8,1 fois plus brillante que notre soleil avec une luminosité d’environ 9,998 Luxe et a une surface avec une température de 6 140 K. Elle se situe à une distance d'environ 68,2 années lumière qui veut dire qu’elle se situe dans la galaxie de la voie lactée."
+            } else if (star == 'star11') {
+                starname.innerHTML = "Edasich";
+                starinfo.innerHTML = "Edasich ou Iota Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 3,29 et une magnitude absolue de 0,99. Elle a un type spectral de K2III et est donc une étoile rouge-orange.<br><br>Edasich a une masse 1,82 fois plus grande que le soleil, un rayon 11,99 fois plus large que celui du soleil, une luminosité 55,3 fois plus brillante que le soleil et une température de surface de 4 545 K. Elle a un parallaxe de 32,23 mas et se trouve à environ 101,2 années lumières ou 31,03 parsecs de la Terre."
+            } else if (star == 'star12') {
+                starname.innerHTML = "Thuban";
+                starinfo.innerHTML = "Thuban ou Alpha Draconis, qui se situe dans la Voie Lactée, possède une magnitude apparente de 3,67 et une magnitude absolue de -1,20. Elle a un type spectral de A0III, avec une longueur d’onde maximale d’environ 295,7 nm, donc Thuban est une étoile blanche.<br><br>Thuban a une masse 3,85 fois plus grande que le soleil, un rayon 3,4 fois plus large que le soleil, une luminosité 294 fois plus brillante que le soleil et une température de surface de 9800 K. Elle a une parallaxe de 10,76 mas et se trouve à environ 303,3 années lumières ou 92,9 parsecs de la Terre."
+            } else if (star == 'star13') {
+                starname.innerHTML = "Kappa Draconis";
+            }
+        }
+    </script>
+</html>
