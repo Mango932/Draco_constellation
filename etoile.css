@@ -109,6 +109,8 @@
 .imgcontainer{
     justify-content: center;
     display: none;
+    margin: auto;
+    width: 1400px;
 }
 .imgcontainer img{
     max-width: 400px;
