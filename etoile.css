@@ -42,15 +42,15 @@
 }
 .star-section{
     background: #FBF7ED;
-    width: 1500px;
+    max-width: 1500px;
     margin: auto;
-    padding: 0 50px 50px 50px;
+    padding: 10px 50px 50px 50px;
 }
 .container{
     background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url(images/starry-sky-pattern.jpg);
+    border-radius: 10px;
 }
 .star-container{
-    width: 100vw;
     max-width: 1400px;
     margin: auto;
     display: flex;
@@ -110,7 +110,7 @@
     justify-content: center;
     display: none;
     margin: auto;
-    width: 1400px;
+    max-width: 1400px;
 }
 .imgcontainer img{
     max-width: 400px;
@@ -302,7 +302,7 @@
 }
 .footer{
     padding: 100px;
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
     background: #FBF7ED;
     text-align: center;
