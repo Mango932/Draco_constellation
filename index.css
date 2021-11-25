@@ -58,30 +58,6 @@
     color: #353535;
 
 }
-#origine {
-    max-width: 1300px;
-    padding: 150px;
-    background-color: #050020;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.textbox1{
-    width: 600px;
-    color: #FBF7ED;
-}
-.textbox1 h1 {
-    font-size: 50px;
-}
-.textbox1 p {
-    margin-top: 40px;
-    font-size: 18px;
-}
-.imgbox1{
-    width: 600px;
-    text-align: right;
-}
 #space-object-section{
     padding: 200px 100px 200px 100px;
     background-color: #FBF7ED;

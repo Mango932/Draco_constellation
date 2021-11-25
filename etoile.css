@@ -84,7 +84,7 @@
     width: 650px;
     height: 700px;
     color: white;
-    padding: 0px 5em 0 5em;
+    padding: 0px 3em 0 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,7 +96,7 @@
 .starinfo{
     font-size: 18px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .instruction{
     position: absolute;
@@ -123,26 +123,26 @@
     display: none;
 }
 .imgcontainer2 img{
-    max-width: 1600px;
+    width: 800px;
     border-radius: 10px;
     margin: 50px 25px 50px 25px;
 }
 .calcul-section{
-    max-width: 1600px;
+    max-width: 1400px;
     background: #050020;
     margin: auto;
     display: none;
+    padding: 100px;
 }
 .calcul-text{
     text-align: center;
     color: #FBF7ED;
-    margin:100px;
 }
 .calcul-text h1{
     font-size: 50px;
 }
 .calcul-text p{
-    margin-top: 20px;
+    margin: 20px 0 100px 0;
     font-size: 18px;
 }
 .btn1{
