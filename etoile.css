@@ -4,7 +4,7 @@
     font-family: Georgia;
     overflow-y: overlay;
 }
-.header {
+#header {
     padding-top: 20px;
     font-size: 24px;
     color: #353535;
@@ -28,16 +28,16 @@
     font-size: 45px;
     
 }
-.header nav{
+#header nav{
     margin-left:auto;
     margin-right: 70px;
 }
-.header nav a{
+#header nav a{
     margin-left: 70px;
     text-decoration: none;
     color: #353535;
 }
-.header nav a:hover{
+#header nav a:hover{
     text-decoration: underline overline;
 }
 .star-section{
@@ -47,7 +47,7 @@
     padding: 10px 50px 50px 50px;
 }
 .container{
-    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url(images/starry-sky-pattern.jpg);
+    background-image: #FBF7ED;
     border-radius: 10px;
 }
 .star-container{
@@ -58,6 +58,7 @@
     align-items: center;
     height: 700px;
     border-radius: 20px;
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url(images/starry-sky-pattern.jpg);
 }
 .star{
     border-radius: 100%;
@@ -110,10 +111,10 @@
     justify-content: center;
     display: none;
     margin: auto;
-    max-width: 1400px;
 }
 .imgcontainer img{
-    max-width: 400px;
+    width: 400px;
+    height: 100%;
     border-radius: 10px;
     margin: 50px 25px 50px 25px;
 }
@@ -122,9 +123,27 @@
     display: none;
 }
 .imgcontainer2 img{
-    width: 800px;
+    max-width: 1600px;
     border-radius: 10px;
     margin: 50px 25px 50px 25px;
+}
+.calcul-section{
+    max-width: 1600px;
+    background: #050020;
+    margin: auto;
+    display: none;
+}
+.calcul-text{
+    text-align: center;
+    color: #FBF7ED;
+    margin:100px;
+}
+.calcul-text h1{
+    font-size: 50px;
+}
+.calcul-text p{
+    margin-top: 20px;
+    font-size: 18px;
 }
 .btn1{
     width: 20px;
