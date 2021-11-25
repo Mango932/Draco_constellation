@@ -51,6 +51,7 @@
     max-width: 1400px;
     border-radius: 8px;
     box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 60px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: brightness(120%)
 }
 #nom {
     margin-top: 100px;
