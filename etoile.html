@@ -7,7 +7,7 @@
     </head>
     <body>
         <!-- This section is the header -->
-        <section class="header">
+        <section id="header">
             <div class="header-title">
                 <img src="images/astronomy.png" width="50px">
                 <span>Constellation Draco</span>
@@ -60,14 +60,22 @@
                         <div class="starinfo"></div>
                     </div>
                 </div>
-                <div class="imgcontainer">
-                    <img id="img1" src="">
-                    <img id="img2" src="">
-                    <img id="img3" src="">
-                </div>
-                <div class="imgcontainer2">
-                    <img id="img4" src="">
-                </div>
+            </div>
+        </section>
+
+        <!-- this section is for the calcul-->
+        <section class="calcul-section">
+            <div class="calcul-text">
+                <h1>Calcul, spectre et diagramme Hertzsprung-Russell</h1>
+                <p>Les images change dépendant de l'étoile choisit. Certaine étoile n'ont pas de calcul ou de diagramme Hertzsprung-Russell.</p>
+            </div>
+            <div class="imgcontainer">
+                <img id="img1" src="">
+                <img id="img2" src="">
+                <img id="img3" src="">
+            </div>
+            <div class="imgcontainer2">
+                <img id="img4" src="">
             </div>
         </section>
         
@@ -89,6 +97,7 @@
             document.getElementsByClassName('instruction')[0].style.display = "none";
             document.getElementsByClassName('constellation-container')[0].style.position = "static";
             document.getElementsByClassName('imgcontainer')[0].style.display = "flex";
+            document.getElementsByClassName('calcul-section')[0].style.display = "block"
             if (star == 'star1') {
                 starname.innerHTML = 'Eltanin';
                 starinfo.innerHTML = "Eltanin ou Gamma Draconis est l’étoile la plus brillante de la constellation Draco, avec une magnitude apparente de 2,23 et une magnitude absolue de -1,93. Elle possède une type spectrale de K5III, avec une longueur d’onde maximale d’environ 737,4 nm, donc Gamma Draconis est plutôt orange.<br><br>Eltanin a une masse de 1,72 fois plus grande que le soleil, un rayon de 48,15 plus grand que le soleil, une luminosité de 471 plus grande que le soleil et une température de 3930K. Elle a une parallaxe de 154,3 mas et se trouve à environ 153,4 années lumières ou 648,1 parsecs de la Terre.";
